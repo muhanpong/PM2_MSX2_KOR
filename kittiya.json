@@ -1,0 +1,28 @@
+{
+
+    "MACHINES_CONFIG": {
+        "_clear": true,
+
+        "kkittya":  { "DESC": "Kkittya's Korean rom machine", "TYPE": 2, "PRESETS": "_kkittya",    "CODE_LABEL": "KOR" }
+    },
+
+    "EXTENSIONS_CONFIG": {
+        "HARDDISK": { "SLOT2": null },
+        "DISK": null,
+        "RAMMAPPER": null,
+        "MSXMUSIC": { "SLOT": [2, 2] }
+    },
+
+    "PRESETS_CONFIG": {
+        "_kkittya": {
+            "SLOT00_URL": "@MSX2P_JAP.bios",
+            "SLOT02_URL": "@[MSXMUSIC].rom",
+            "SLOT30_URL": "@[RAMMapper].rom", "RAMMAPPER_SIZE": 128,
+            "SLOT31_URL": "@KanjiBasicOnly.bios", 
+            "SLOT32_URL": "@[DiskPatch].rom",
+            "SLOT33_URL": "@[MSXMUSIC].rom",
+            "VDP_TYPE": 3
+        }
+    }
+
+}
