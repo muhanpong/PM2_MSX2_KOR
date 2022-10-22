@@ -1,0 +1,26 @@
+{
+  "MOUSE_MODE": 2,
+  "SCREEN_DEFAULT_SCALE": 1,
+  "MACHINES_CONFIG": {
+    "_clear": true,
+    "TURBO-R_K": {
+      "DESC": "MSX Turbor-R K",
+      "TYPE": 4,
+      "PRESETS": "_TURBO-R_K",
+      "LANG": "ja"
+
+    }
+  },
+  "EXTENSIONS_CONFIG": {
+    "KANJI": { "SLOT": [ 4, 0 ] }
+  },
+  "PRESETS_CONFIG": {
+    "_TURBO-R_K": {
+      "_INCLUDE": "_MSXTRJ",
+      "SLOT40_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/kanji_k.rom", "SLOT40_FORMAT": "Kanji1",
+      "VDP_TYPE": 3,
+      "DISKA_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/PM_K.zip",
+     "BOOT_DURATION_AUTO": 380
+    }
+  }
+}

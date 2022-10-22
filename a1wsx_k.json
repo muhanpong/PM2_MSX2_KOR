@@ -1,0 +1,40 @@
+{
+  "MOUSE_MODE": 2,
+  "SCREEN_DEFAULT_SCALE": 1,
+
+    "MACHINES_CONFIG": {
+        "_clear": true,
+
+        "FS-A1WSX":  { "DESC": "Panasonic FS-A1WSX", "TYPE": 3, "PRESETS": "_FS-A1WSX",    "LANG": "ja" }
+    },
+
+    "EXTENSIONS_CONFIG": {
+        "DISK": null,
+        "RAMMAPPER": null,
+        "MSXMUSIC": { "SLOT": [0, 2] },
+	"KANJI": {"SLOT": [4, 0]}
+
+    },
+
+    "PRESETS_CONFIG": {
+        "_FS-A1WSX": {
+	    "KANJI":   { "EXTENSIONS.KANJI":  1 },
+            "SLOT00_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_basic-bios2p.rom",
+            "SLOT01_URL": "",
+            "SLOT02_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_fmbasic.rom",
+            "SLOT03_URL": "",
+            "SLOT30_URL": "@[RAMMapper].rom", "RAMMAPPER_SIZE": 1024,
+            "SLOT31_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_msx2psub.rom | https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_kanjibasic.rom",
+            "SLOT32_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_disk.rom",
+            "SLOT33_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/panasonic/fs-a1wsx_firmware.rom",
+	    "SLOT40_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/kanji_k.rom", "SLOT40_FORMAT": "Kanji1",
+            "VDP_TYPE": 3,
+	    "DISKA_URL": "https://raw.githubusercontent.com/muhanpong/PM2_MSX2_KOR/main/PM_K.zip"
+        }
+
+    }
+
+}
+
+
+
